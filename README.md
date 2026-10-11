@@ -1,20 +1,134 @@
-# Muneeb Sidhar - Portfolio
+# 💼 Muneeb Sidhar | Personal Portfolio Website
 
-## Run it on your computer
-1. Install Node.js (nodejs.org).
-2. In this folder run: `npm install`
-3. Copy `.env.example` to `.env` and fill it in (steps below).
-4. Run: `npm start` and open http://localhost:3000
+A personal portfolio website to present my skills, projects and contact details to employers and clients. It is a multi-page site built with **HTML, CSS and JavaScript**, with a **Node.js** back end that sends contact form messages straight to me.
 
-## Get messages straight to your Gmail
-The contact form sends every message to your inbox. Replying to the email replies to the visitor.
+---
 
-1. Open your Google Account > Security and turn on 2-Step Verification.
-2. Search for "App passwords" in your Google Account, create one named "Portfolio", and copy the 16-letter password.
-3. Put it in `.env` as `GMAIL_APP_PASSWORD` (no spaces). `GMAIL_USER` is your Gmail address.
-4. Restart the server. Send a test message from the Contact page.
+## 👤 About Me
 
-Never put the app password in the website files or share the `.env` file. If it leaks, delete it in your Google Account and create a new one.
+I'm **Muneeb Ur Rehman Sidhar**, a Computer Science student at the University of Engineering and Technology (UET), Taxila. I build projects in C++, OOP, Digital Logic Design, Arduino and Python, and I also work on web development.
 
-## When you put the site online
-Use a host that runs Node.js (for example Render). Add `GMAIL_USER` and `GMAIL_APP_PASSWORD` in the host's "Environment variables" settings instead of uploading `.env`. Free hosts can erase `messages.json`, so rely on the emails.
+---
+
+## ✨ Features
+
+- Multi-page layout: **Home, About, Skills, Projects, Contact**
+- Clean home page with my name, details and photo
+- Skills section with icons and skill ratings
+- Projects section with linked pictures
+- Contact form connected to a Node.js back end, so visitor messages reach me directly
+- Smooth animations and an interactive, aesthetic design
+- Professional tech-style color theme
+- Large, readable text
+
+---
+
+## 🧠 Skills
+
+| Area | Skills |
+| ---- | ------ |
+| Programming | C++, Python, OOP |
+| Electronics | Arduino, Digital Logic Design (DLD) |
+| Web development | HTML, CSS, JavaScript, front end and back end |
+| Learning | AI and cyber security |
+
+---
+
+## 🚀 Projects Featured
+
+**Arduino**
+- Smart Attendance System (RFID)
+- Light Following Car
+- Auto Parking System
+- and more
+
+**Digital Logic Design**
+- Smart Security Laser Alarm
+- and more
+
+**C++**
+- Snake Game
+- Exam System
+
+**OOP**
+- Car Racing Game
+
+**Web**
+- Student Career Guidance Portal
+- Online Store
+- and more
+
+**Python**
+- Automation projects
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** for page structure
+- **CSS3** for styling, layout and animations
+- **JavaScript** for interactivity
+- **Node.js** for the contact form back end
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── index.html        # Home page
+├── about.html        # About page
+├── skills.html       # Skills page
+├── projects.html     # Projects page
+├── contact.html      # Contact page
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/           # My photo and project pictures
+├── server.js         # Node.js back end for the contact form
+└── package.json
+```
+
+> Update the file and folder names above to match your actual project.
+
+---
+
+## ⚙️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
+
+### Install and run
+
+```bash
+npm install
+node server.js
+```
+
+Then open `http://localhost:3000` in your browser.
+
+> Change the port if your `server.js` uses a different one.
+
+### Contact form setup
+
+The contact form sends visitor messages to my email through the Node.js server. Add your own email settings in the server file or in a `.env` file before running the project. Do not upload passwords or keys to GitHub.
+
+---
+
+## 📬 Contact
+
+- **Email:** muneebsidhar@gmail.com
+- **LinkedIn:** Muneeb Ur Rehman Sidhar
+- **Facebook:** Muneeb Ur Rehman Sidhar
+- **Instagram:** sidhar_muneeb006
+
+---
+
+## 📜 License
+
+This project is for personal and educational use. You can add a license of your choice (for example, MIT) to this repository.
