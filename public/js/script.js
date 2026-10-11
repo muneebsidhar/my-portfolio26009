@@ -23,7 +23,7 @@ const skills = [
 ];
 /* ---------- EDIT YOUR CERTIFICATES HERE (preview images live in public/images) ---------- */
 const certificates = [
-  { title: 'Foundations of Coding Full-Stack', issuer: 'Microsoft, via Coursera', date: '11 Oct 2026', img: 'cert-full-stack-coding.jpg.jpg', link: 'https://coursera.org/verify/R7HYL7B9EQ5R' },
+  { title: 'Foundations of Coding Full-Stack', issuer: 'Microsoft, via Coursera', date: '11 Oct 2026', img: 'cet-full-stack-coding.jpg.jpg', link: 'https://coursera.org/verify/R7HYL7B9EQ5R' },
   { title: 'AI For Everyone', issuer: 'DeepLearning.AI, via Coursera', date: '06 Oct 2026', img: 'cert-ai-everyone.jpg', link: 'https://coursera.org/verify/GKFH8S18XHQZ' },
   { title: 'AI for Brainstorming and Planning', issuer: 'Google, via Coursera', date: '06 Oct 2026', img: 'cert-ai-brainstorming.jpg', link: 'https://coursera.org/verify/9RV7P5URNV3B' },
   { title: 'Foundations of Cybersecurity', issuer: 'Google, via Coursera', date: '02 Sep 2026', img: 'cert-cybersecurity.jpg', link: 'https://coursera.org/verify/Z7FDSUBSNFAY' },
