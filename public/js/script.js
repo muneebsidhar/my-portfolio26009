@@ -29,19 +29,19 @@ const certificates = [
 ];
 /* ---------- EDIT YOUR PROJECTS HERE (image files live in public/images) ---------- */
 const projects = [
-  { id: 'arduino', title: 'Smart Attendance System',      group: 'Arduino', img: 'rfid.svg',       text: 'Students tap an RFID card on a reader and an Arduino records their attendance automatically, replacing the paper register.', link: '#' },
+  { id: 'arduino', title: 'Smart Attendance System',      group: 'Arduino', img: 'rfid.svg',       text: 'Students tap an RFID card on a reader and an Arduino records their attendance automatically, replacing the paper register.', link: 'https://github.com/muneebsidhar/smart_attendance_system-arduino_project' },
   { id: 'car',     title: 'Light Following Car',          group: 'Arduino', img: 'car.svg',        text: 'A small robot car that senses a light source with Arduino and steers itself toward it.', link: '#' },
   { id: 'parking', title: 'Auto Parking System',          group: 'Arduino', img: 'parking.svg',    text: 'An Arduino-controlled parking system that detects vehicles and manages parking automatically.', link: '#' },
   { id: 'circuit', title: 'More Arduino Projects',        group: 'Arduino', img: 'breadboard.svg', text: 'A growing collection of sensor, LED and motor projects programmed in the Arduino IDE.', link: '#' },
   { id: 'dld',     title: 'Smart Security Laser Alarm',   group: 'DLD',     img: 'laser.svg',      text: 'A security alarm built from logic gates that sounds when a laser beam is interrupted.', link: '#' },
-  { id: 'gates',   title: 'Logic Gate Projects',          group: 'DLD',     img: 'logic.svg',      text: 'Digital circuits designed from AND, OR and NOT gates and tested as working hardware.', link: '#' },
-  { id: 'cpp',     title: 'Snake Game',                   group: 'C++',     img: 'snake.svg',      text: 'The classic snake game written in C++, with score tracking and growing difficulty.', link: '#' },
+  { id: 'gates',   title: 'Logic Gate Projects',          group: 'DLD',     img: 'logic.svg',      text: 'Digital circuits designed from AND, OR and NOT gates and tested as working hardware.', link: 'https://github.com/muneebsidhar/Digital_car_parking_system' },
+  { id: 'cpp',     title: 'Snake Game',                   group: 'C++',     img: 'snake.svg',      text: 'The classic snake game written in C++, with score tracking and growing difficulty.', link: 'https://github.com/muneebsidhar/snake_game_cpp' },
   { id: 'exam',    title: 'Exam System',                  group: 'C++',     img: 'code-cpp.svg',   text: 'A C++ program that conducts exams, checks answers and reports the final result.', link: '#' },
-  { id: 'oop',     title: 'Car Racing Game',              group: 'OOP',     img: 'code-cpp.svg',   text: 'A racing game built around object-oriented design, with classes for the cars, track and game flow.', link: '#' },
+  { id: 'oop',     title: 'Car Racing Game',              group: 'OOP',     img: 'code-cpp.svg',   text: 'A racing game built around object-oriented design, with classes for the cars, track and game flow.', link: 'https://github.com/muneebsidhar/car_racing-game' },
   { id: 'python',  title: 'Python Automation',            group: 'Python',  img: 'code-python.svg', text: 'Python scripts that automate repetitive tasks and save time.', link: '#' },
   { id: 'web',     title: 'Student Career Guidance Portal', group: 'Web',   img: 'web.svg',        text: 'A website that helps students explore careers and choose a path that fits their interests.', link: 'https://github.com/muneebsidhar/Guidance-Hub' },
   { id: 'store',   title: 'Online Store',                 group: 'Web',     img: 'store.svg',      text: 'An online shopping website where visitors browse products and place orders.', link: '#' },
-  { id: 'site',    title: 'Personal Portfolio Website',   group: 'Web',     img: 'web.svg',        text: 'This site: five responsive pages with HTML, CSS and JavaScript, plus a Node.js server for the contact form.', link: '#' },
+  { id: 'site',    title: 'Personal Portfolio Website',   group: 'Web',     img: 'web.svg',        text: 'This site: five responsive pages with HTML, CSS and JavaScript, plus a Node.js server for the contact form.', link: 'https://github.com/muneebsidhar/my-portfolio26009' },
 ];
 /* --------------------------------------------------------------------------- */
 
