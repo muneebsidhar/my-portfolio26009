@@ -30,6 +30,10 @@ const certificates = [
 ];
 /* ---------- EDIT YOUR PROJECTS HERE (image files live in public/images) ---------- */
 const projects = [
+  { id: 'suma', title: 'SUMA: File and Folder Locker', group: 'Software Development', img: 'suma-1.png', text: 'A fully working desktop security app that locks and unlocks files and folders with a password. Built with Python and PySide6, with a cyber terminal style interface.', link: 'https://github.com/muneebsidhar/suma-file---folder-locker-desktop-app' },
+  { id: 'chatbot', title: 'AI Chatbot', group: 'AI', img: 'psia_logo.svg', text: 'An AI chatbot that answers questions in a simple chat interface.', link: 'https://github.com/muneebsidhar/PSIA-personal-super-intelligence-assistance' },
+  { id: 'site',    title: 'Personal Portfolio Website',   group: 'Web',     img: 'portfolio.PNG',        text: 'This site: five responsive pages with HTML, CSS and JavaScript, plus a Node.js server for the contact form.', link: 'https://github.com/muneebsidhar/my-portfolio26009' },
+  { id: 'web',     title: 'Student Career Guidance Portal', group: 'Web',   img: 'guideness-hub.PNG',        text: 'A website that helps students explore careers and choose a path that fits their interests.', link: 'https://github.com/muneebsidhar/Guidance-Hub' },
   { id: 'arduino', title: 'Smart Attendance System',      group: 'Arduino', img: 'rfid.svg',       text: 'Students tap an RFID card on a reader and an Arduino records their attendance automatically, replacing the paper register.', link: 'https://github.com/muneebsidhar/smart_attendance_system-arduino_project' },
   { id: 'car',     title: 'Light Following Car',          group: 'Arduino', img: 'car.svg',        text: 'A small robot car that senses a light source with Arduino and steers itself toward it.', link: 'https://github.com/muneebsidhar/smart-laser-security-alarm-system' },
   { id: 'parking', title: 'Auto Parking System',          group: 'Arduino', img: 'parking.svg',    text: 'An Arduino-controlled parking system that detects vehicles and manages parking automatically.', link: 'https://github.com/muneebsidhar/auto-parking-system' },
@@ -40,11 +44,9 @@ const projects = [
   { id: 'exam',    title: 'Exam System',                  group: 'C++',     img: 'code-cpp.svg',   text: 'A C++ program that conducts exams, checks answers and reports the final result.', link: 'https://github.com/muneebsidhar/exam-system' },
   { id: 'oop',     title: 'Car Racing Game',              group: 'OOP',     img: 'code-cpp.svg',   text: 'A racing game built around object-oriented design, with classes for the cars, track and game flow.', link: 'https://github.com/muneebsidhar/car_racing-game' },
   { id: 'python',  title: 'Python Automation',            group: 'Python',  img: 'code-python.svg', text: 'Python scripts that automate repetitive tasks and save time.', link: '#' },
-  { id: 'web',     title: 'Student Career Guidance Portal', group: 'Web',   img: 'guideness-hub.PNG',        text: 'A website that helps students explore careers and choose a path that fits their interests.', link: 'https://github.com/muneebsidhar/Guidance-Hub' },
+  
   { id: 'store',   title: 'Online Store',                 group: 'Web',     img: 'store.svg',      text: 'An online shopping website where visitors browse products and place orders.', link: '#' },
-  { id: 'site',    title: 'Personal Portfolio Website',   group: 'Web',     img: 'portfolio.PNG',        text: 'This site: five responsive pages with HTML, CSS and JavaScript, plus a Node.js server for the contact form.', link: 'https://github.com/muneebsidhar/my-portfolio26009' },
-  { id: 'suma', title: 'SUMA: File and Folder Locker', group: 'Software Development', img: 'suma-1.png', text: 'A fully working desktop security app that locks and unlocks files and folders with a password. Built with Python and PySide6, with a cyber terminal style interface.', link: 'https://github.com/muneebsidhar/suma-file---folder-locker-desktop-app' },
-  { id: 'chatbot', title: 'AI Chatbot', group: 'AI', img: 'psia_logo.svg', text: 'An AI chatbot that answers questions in a simple chat interface.', link: 'https://github.com/muneebsidhar/PSIA-personal-super-intelligence-assistance' },
+ 
 
 ];
 /* --------------------------------------------------------------------------- */
