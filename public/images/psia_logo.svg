@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">PSIA assistant logo</title>
+  <desc id="desc">A friendly AI mark with a cyan orbital signal around the PSIA initials.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102B46"/>
+      <stop offset="1" stop-color="#173F5F"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#75F0DE"/>
+      <stop offset="1" stop-color="#42B8ED"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="230" fill="url(#bg)"/>
+  <circle cx="512" cy="478" r="294" fill="none" stroke="url(#signal)" stroke-width="22" opacity=".96"/>
+  <path d="M318 642c51 70 120 108 194 108s143-38 194-108" fill="none" stroke="#75F0DE" stroke-width="18" stroke-linecap="round" opacity=".62"/>
+  <circle cx="512" cy="184" r="24" fill="#75F0DE"/>
+  <circle cx="798" cy="478" r="24" fill="#75F0DE"/>
+  <circle cx="226" cy="478" r="24" fill="#75F0DE"/>
+  <path d="M355 590V374h91c63 0 97 35 97 91s-34 91-97 91h-35v34h-56zm56-87h34c27 0 41-13 41-38s-14-38-41-38h-34v76z" fill="#F4FBFF"/>
+  <path d="M573 581l22-49c24 14 48 21 73 21 22 0 33-7 33-20 0-12-10-18-51-28-52-13-82-35-82-75 0-47 40-77 100-77 39 0 72 8 99 25l-23 47c-23-12-48-18-74-18-20 0-31 6-31 17 0 12 12 19 52 28 54 13 82 35 82 75 0 49-39 80-102 80-46 0-87-10-121-26z" fill="#F4FBFF"/>
+  <path d="M764 318l11-27 27-11-27-11-11-27-11 27-27 11 27 11z" fill="#75F0DE"/>
+</svg>
